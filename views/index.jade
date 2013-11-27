@@ -1,0 +1,50 @@
+extends layout
+
+block content
+  .container
+    .header
+    //- embed(src='/images/south_sudan.svg').south_sudan
+    .card
+      h2 
+      h3.location Location: 
+        span
+      h3.population School Size: 
+        span
+      .key
+        .colour
+          .red
+          .label Oversaturated >30:1
+        .colour
+          .blue
+          .label Good ~20:1
+        .colour
+          .green
+          .label Undersaturated <10:1
+
+    .loading loading........
+    .charts
+      .backtohome back
+      #chart1
+        h2 School Performance
+        svg
+      #chart2
+        h2 Attendance
+        svg
+      #chart3
+        h2 Travel Distance
+        svg
+    #bigchart
+      .back back
+      svg
+  script(src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.10/d3.min.js")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.2/raphael-min.js")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+  script(src="/javascripts/raphael.pan-zoom.min.js")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/nvd3/1.1.13-beta/nv.d3.min.js")
+  script(type="text/javascript" src='/javascripts/main.js')
+  script.
+    var pupils = "#{pupils}";
+
+
+

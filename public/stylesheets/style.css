@@ -1,0 +1,147 @@
+html {
+	background-color: white;
+}
+
+body {
+	padding: 20px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+margin-left: 200px;
+	font-size: 50pt;
+}
+
+.container {
+	width: 70%;
+	position: relative;
+}
+
+/*a {
+	color: #00B7FF;
+}*/
+
+svg {
+	display: block;
+	left: 0px !important;
+	top: 0px !important;
+}
+
+.back {
+	width: 40px;
+	height: 20px;
+}
+
+.charts {
+	display: none;
+
+}
+.charts h2 {
+	text-align: center;
+}
+
+.charts svg {
+	width: 400px;
+	height: 300px;
+}
+
+#bigchart {
+	display: none;
+}
+
+.loading {
+	font-size: 20pt;
+	display: block;
+	position: fixed;
+	top: 45%;
+	left: 30%;
+	display: none;
+}
+
+#bigchart svg {
+
+	width: 800px;
+	height: 700px;
+	margin-top: 20px;
+}
+
+#chart2  {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+}
+#chart1  {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+#chart3 {
+	position: absolute;	
+	top: 400px;
+	left: 50px;
+}
+
+
+.south_sudan {
+	width: 1000px;
+	height: 726px;
+	display: block;
+	margin: 0 auto;
+}
+
+.card {
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 300px;
+	height: 100%;
+	padding: 50px;
+	border: 1px solid #cccccc;
+	background-color: #f2f2f2;
+	padding-top: 40px;
+	border-left: 1px dotted #666666;
+	z-index: 5;
+}
+
+.colour {
+	display: inline;
+}
+
+.red {
+	margin: 5px;
+float: left;
+	width: 10px;
+	height: 10px;
+	background-color: #800000;
+}
+
+.blue {
+	margin: 5px;
+float: left;
+	width: 10px;
+	height: 10px;
+	background-color: #004080;
+}
+
+.green {
+	margin: 5px;
+float: left;
+	width: 10px;
+	height: 10px;
+	background-color: #008040;
+}
+
+.card h2 {
+	font-size: 20pt;
+}
+
+.card h3 {
+	clear: both;
+	color: #666666;
+	font-weight: normal;
+}
+
+.card .location {
+	margin-top: 40px;
+}
